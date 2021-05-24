@@ -1,0 +1,201 @@
+body{
+    font-family: 'Poppins', sans-serif;
+  }
+
+    a{
+      text-decoration: none;
+    }
+
+    .dropdown-menu {
+      font-weight: 600;
+    }
+
+
+    /*--- Barra de Contatos --- */
+    .marcador10 {
+      background: #FFC200;
+      height: 5vh;
+    }
+    .socials {
+    font-size: 1.2em;
+    margin-left: 1210px;
+    }
+    .fa-phone,
+    .fa-facebook,
+    .fa-instagram,
+    .fa-whatsapp {
+      color: black;
+    }
+    /*--- MENU --- */
+    .marcador11 {
+      background: rgb(59, 59, 59);
+      height: 16vh;
+    }
+ /*--- TITULO - SERVICOS --- */
+    .titulo-servicos{
+height: 10vh;
+background-color: blue;
+    }
+
+    .marcador{
+        background: mediumpurple;
+        height: 15vh;
+    }
+    .marcador2{
+        background: aquamarine;
+        height: 30vh;
+   
+    }
+    .marcador5{
+        background: yellow;
+        height: 70vh;
+    }
+  
+/*---- CARROSSEL ----*/
+
+.carrosel-banner{
+background-color: #FFC200;
+height: 34vh;
+}
+
+    /*---- ACORDEON ----*/
+    .acordeao{
+      background-color: yellow;
+      height: 380vh;
+    }
+    .img-cartao{
+      width: 500px;
+      height: 400px;
+      margin-left: 250px;
+    }
+    .video-seguro-viagem{
+      margin-left: 215px;
+    }
+
+    .menu-acordeao{
+      background-color:#FFC200;
+      height: 380vh;
+    }
+    .img-lyca,
+    .img-internacional{
+      width: 300px;
+      height: 180px;
+      margin-left: 300px;
+    }
+
+    /*--- Novidades ---*/
+.newsLater {
+background: #ffc200;
+height: 15vh;
+color: black;
+}
+
+.btn-news {
+border: 1px solid black;
+}
+.btn-news:hover {
+background-color: black;
+color: #ffc200;
+}
+
+
+
+
+/*----FOOTER, Exclusivo CSS---- NÃO MEXER*/
+footer {
+width: 100%;
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 30px 0;
+flex-wrap: wrap;
+background: linear-gradient(
+      rgba(243, 239, 20, 0.5),
+      rgba(12, 9, 12, 0.5)
+    );
+}
+footer .endereco,
+.endereco p {
+color: #262626;
+font-size: 1em;
+text-align: center;
+margin-left: 100px;
+}
+.endereco img {
+margin-bottom: 10px;
+}
+
+footer .midiafoot {
+text-align: center;
+margin-right: 150px;
+
+}
+
+footer .midiafoot .icone-footer {
+font-size: 1.5em;
+padding: 10px;
+cursor: pointer;
+transition: 0.4s;
+}
+
+footer .midiafoot .icone-footer:hover {
+color: #FFC200;
+}
+
+footer .midiafoot h5 {
+margin: 20px 0 10px;
+
+}
+footer > .midiafoot > img {
+border-radius: 10px;
+
+}
+
+footer .midiafoot p {
+font-size: 0.9em;
+}
+/*----SETINHA DO SCROLL */
+#subirTopo {
+  text-decoration: none;
+  
+  bottom: 30px;
+  right: 30px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: fixed;
+  border: 0;
+  font-family: sans-serif;
+  opacity: .8;
+ z-index: 1;
+  }
+  
+  #subirTopo:hover {
+  opacity:1;
+  }
+  .setinha{
+      width: 50px;
+      height: 50px;
+  }
+
+  /*Imagem Fixed*/
+.img-whatsApp{
+width: 100px;
+width: 100px;
+}
+
+.box-img-right{
+    margin-right: 150px;
+}
+
+.box-img-left{
+    margin-left: 190px;
+}
+.final{
+    margin-top: 310px;
+}

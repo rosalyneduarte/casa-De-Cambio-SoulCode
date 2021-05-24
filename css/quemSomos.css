@@ -1,0 +1,164 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+/*-----QUEM Somos, Empresa, Coluna 1 ------*/
+.img-logo {
+  width: 400px;
+  height: 400px;
+  margin-left: 78px;
+}
+.marcador3 {
+  height: 70vh;
+}
+.marcador4 {
+  height: 70vh;
+}
+.marcador5 {
+  background: #ffc200;
+  height: 70vh;
+}
+
+/*-----QUEM Somos, Empresa, Coluna 2 ------*/
+.coluna2-quemSomos1,
+.coluna2-quemSomos2,
+.coluna2-quemSomos3,
+.coluna2-quemSomos4 {
+  height: 95vh;
+}
+.coluna2-quemSomos1,
+.coluna2-quemSomos4 {
+  background: #ffc200;
+}
+
+/*---- BANNER, Quem Somos----*/
+.banner-quemSomos {
+  background: mediumpurple;
+  height: 40vh;
+  background: linear-gradient(rgba(243, 239, 20, 0.3), rgba(12, 9, 12, 0.5)),
+    url(../img/A-empresa-quemSomos.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dropdown-menu {
+  font-weight: 600;
+}
+/*--- Barra de Contatos --- */
+.marcador10 {
+  background: #ffc200;
+  height: 5vh;
+}
+.socials {
+  font-size: 1.2em;
+  margin-left: 1210px;
+}
+.fa-phone,
+.fa-facebook,
+.fa-instagram,
+.fa-whatsapp {
+  color: black;
+}
+/*--- MENU --- */
+.marcador11 {
+  background: rgb(59, 59, 59);
+  height: 16vh;
+}
+
+/*--- Novidades ---*/
+.newsLater {
+  background: #ffc200;
+  height: 15vh;
+  color: black;
+}
+
+.btn {
+  border: 1px solid black;
+}
+.btn:hover {
+  background-color: black;
+  color: #ffc200;
+}
+/*----FOOTER, Exclusivo CSS----*/
+footer {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 0;
+  flex-wrap: wrap;
+  background: linear-gradient(rgba(243, 239, 20, 0.5), rgba(12, 9, 12, 0.5));
+}
+footer .endereco,
+.endereco p {
+  color: #262626;
+  font-size: 1em;
+  text-align: center;
+  margin-left: 100px;
+}
+.endereco img {
+  margin-bottom: 10px;
+}
+
+footer .midiafoot {
+  text-align: center;
+  margin-right: 150px;
+}
+
+footer .midiafoot .icone-footer {
+  font-size: 1.5em;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+footer .midiafoot .icone-footer:hover {
+  color: #ffc200;
+}
+
+footer .midiafoot h5 {
+  margin: 20px 0 10px;
+}
+footer > .midiafoot > img {
+  border-radius: 10px;
+}
+
+footer .midiafoot p {
+  font-size: 0.9em;
+}
+/*----SETINHA DO SCROLL */
+#subirTopo {
+  text-decoration: none;
+
+  bottom: 30px;
+  right: 30px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: fixed;
+  border: 0;
+  font-family: sans-serif;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+#subirTopo:hover {
+  opacity: 1;
+}
+.setinha {
+  width: 50px;
+  height: 50px;
+}
+
+/*Imagem Fixed*/
+.img-whatsApp {
+  width: 100px;
+  width: 100px;
+}

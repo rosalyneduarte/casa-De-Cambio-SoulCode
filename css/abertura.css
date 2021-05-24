@@ -1,0 +1,26 @@
+
+
+  body {
+    background: linear-gradient(
+        rgba(243, 239, 20, 0.6),
+        rgba(12, 9, 12, 0.4)
+      ),
+      url(../img/mapa_mundi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+  }
+
+  .marcador {
+    height: 50vh;
+    border: 2px solid black;
+    margin-top: 110px;
+  }
+
+
+.btn{
+
+    font-weight: bold;
+
+}

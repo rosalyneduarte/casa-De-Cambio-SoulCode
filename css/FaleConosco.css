@@ -1,0 +1,153 @@
+.banner-contato {
+  background: mediumpurple;
+  height: 40vh;
+
+  background: linear-gradient(rgba(243, 239, 20, 0.3), rgba(12, 9, 12, 0.5)),
+    url(../img/Banner-Contato-II.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* --- Formulario --- */
+.formulario {
+  background: #ffc200;
+  height: 125vh;
+}
+.contatos {
+  background: blue;
+  height: 125vh;
+}
+.contatos-barra {
+  background-color: #ffc200;
+  height: 125vh;
+}
+.formulario2 {
+  background: red;
+  height: 125vh;
+}
+label {
+  color: black;
+}
+
+/*---DAQUI PARA CIMA PODE MEXER */
+
+.btn {
+  border: 1px solid black;
+}
+.btn:hover {
+  background-color: black;
+  color: #ffc200;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  font-weight: 600;
+}
+/*--- Barra de Contatos --- */
+.marcador10 {
+  background: #ffc200;
+  height: 5vh;
+}
+.socials {
+  font-size: 1.2em;
+  margin-left: 1210px;
+}
+.fa-phone,
+.fa-facebook,
+.fa-instagram,
+.fa-whatsapp {
+  color: black;
+}
+/*--- MENU --- */
+.marcador11 {
+  background: rgb(59, 59, 59);
+  height: 17vh;
+}
+
+/*----FOOTER, Exclusivo CSS----*/
+footer {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 0;
+  flex-wrap: wrap;
+  background: linear-gradient(rgba(243, 239, 20, 0.5), rgba(12, 9, 12, 0.5));
+}
+footer .endereco,
+.endereco p {
+  color: #262626;
+  font-size: 1em;
+  text-align: center;
+  margin-left: 100px;
+}
+.endereco img {
+  margin-bottom: 10px;
+}
+
+footer .midiafoot {
+  text-align: center;
+  margin-right: 150px;
+}
+
+footer .midiafoot .icone-footer {
+  font-size: 1.5em;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+footer .midiafoot .icone-footer:hover {
+  color: #ffc200;
+}
+
+footer .midiafoot h5 {
+  margin: 20px 0 10px;
+}
+footer > .midiafoot > img {
+  border-radius: 10px;
+}
+
+footer .midiafoot p {
+  font-size: 0.9em;
+}
+/*----SETINHA DO SCROLL */
+#subirTopo {
+  text-decoration: none;
+
+  bottom: 30px;
+  right: 30px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: fixed;
+  border: 0;
+  font-family: sans-serif;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+#subirTopo:hover {
+  opacity: 1;
+}
+.setinha {
+  width: 50px;
+  height: 50px;
+}
+
+/*Imagem Fixed*/
+.img-whatsApp {
+  width: 100px;
+  width: 100px;
+}
